@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import News from './News';
-
+import 'bootstrap/dist/css/bootstrap.css';
+import formInput from './components/formInput/formInput';
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <News />
+      <formInput />
     </div>
   );
 }
