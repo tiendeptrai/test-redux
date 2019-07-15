@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import News from './News';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css'
 // import FormInput from './components/formInput/formInput';
 // import FormInput from './reducers/formInput';
 //ref

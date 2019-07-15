@@ -14,8 +14,9 @@ export default class FormInput extends Component {
     }
     onHandleChange = (event) => {
         var target = event.target;
-        var name = event.name;
-        var value = target.type === 'checkbox'?target.checked:target.value
+        var name = event.target.name;
+        var value = target.type == 'checkbox' ? target.checked : target.value;
+        // var value =  target.value;
         this.setState({
             [name]: value
         })
@@ -59,7 +60,7 @@ export default class FormInput extends Component {
                         </div>
                         <label htmlFor>Radio box </label>
 
-                        <div classname="form-group">
+                        <div className="form-group">
                             <div className="form-check">
                                 <label className="form-check-label">
                                     <input type="radio" className="form-check-input" 
