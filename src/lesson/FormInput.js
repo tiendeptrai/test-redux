@@ -13,11 +13,12 @@ export default class FormInput extends Component {
         }
     }
     onHandleChange = (event) => {
-        var target = event.target;
-        var name = event.name;
-        var value = target.type === 'checkbox'?target.checked:target.value
+        var targets = event.target;
+        var name = event.target.name;
+        var value = targets.type === 'checkbox' ? targets.checked : targets.value ;
         this.setState({
             [name]: value
+            // [event.target.name] : event.target.checked
         })
     }
 
