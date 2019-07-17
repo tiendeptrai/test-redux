@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+
 import TaskList from './components/projectCurd/TaskList';
 import TaskForm from './components/projectCurd/TaskForm';
 import TaskControl from './components/projectCurd/TaskControl';
@@ -114,6 +115,8 @@ class App extends Component {
         }
         console.log(id);
     }
+
+
 
     //id : id item delete
     onDeleteItem = (id)=>{

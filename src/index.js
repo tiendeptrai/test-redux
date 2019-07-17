@@ -4,7 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import formInput from './reducers/formInput';
-ReactDOM.render(<App />, document.getElementById('root'));
+
+import UseCommonInput from './components/formInput/UseCommonInput'
+// ReactDOM.render(<App />, document.getElementById('root'));
+//test form
+ReactDOM.render(<UseCommonInput />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

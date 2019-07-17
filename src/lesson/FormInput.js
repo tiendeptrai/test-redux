@@ -60,7 +60,7 @@ export default class FormInput extends Component {
                         </div>
                         <label htmlFor>Radio box </label>
 
-                        <div classname="form-group">
+                        <div className="form-group">
                             <div className="form-check">
                                 <label className="form-check-label">
                                     <input type="radio" className="form-check-input" 
