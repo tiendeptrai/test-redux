@@ -28,6 +28,7 @@ class FormInput extends Component {
 
     render() {
         const cv_email = this.state.emai + '@gmail.com'
+        const cv_phone =  this.state.emai + '@gmail.com'
         return (
             <div className="section is-fullheight">
             <span>{this.state.email}</span>
