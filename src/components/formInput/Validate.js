@@ -13,6 +13,9 @@ const Validate = (value, rules) => {
           case 'isEmail':
               isValid = isValid && emailValidator(value);
               break;
+case 'isNmber':
+              isValid = isValid && numberValidator(value);
+              break;
 
           default: isValid = true;
       }
